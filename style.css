@@ -1,0 +1,371 @@
+*
+{font-family: 'Inter', sans-serif;}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gradient {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(68, 88, 220, 0.83) 0%, #854FEE 100%);
+}
+
+.top {
+    width: 100%;
+    height: 120vh;
+    background-image: url('./assets/photoportfolio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.btns {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.upperscreen {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    align-self: flex-end;
+}
+
+.title {
+    width: 100%;
+    border-top: solid 11px white;
+    border-bottom: solid 11px white;
+    position: relative;
+}
+
+.title h1 {
+    font-size: 64px;
+    color: white;
+    text-align:center;
+}
+
+.title .name {
+    position: absolute;
+    top: 200px;
+    right: 25px;
+    font-size: 48px;
+    color: white;
+    font-weight:bold;
+}
+.title .age {
+    position: absolute;
+    top: 270px;
+    right: 25px;
+    font-size: 48px;
+    color: white;
+    font-weight:bold;
+}
+.resume {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: solid 7px black;
+    border-radius: 33px;
+    width: 70%;
+    margin: 90px;
+}
+.box-long {
+    border: solid 7px black;
+    border-radius: 33px;
+    width: 45%;
+    margin: 0px;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+}
+
+.box-long div {
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.box-long div p {
+    display: flex;
+    align-self: center;
+}
+
+.box h1 {
+    margin: 15px;
+    font-size: 40px;
+}
+
+.box div {
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+    margin: 15px 0;
+    padding: 45px;
+}
+
+.box div p {
+    font-size: 26px;
+    margin: 25px;
+}
+.competences {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dessus_dessous {
+    display:flex;
+    margin: 70px;
+    border-top:solid 3px black;
+    border-bottom: solid 3px black;
+}
+.competences h1 {
+    margin:5px;
+    font-size: 60px;
+}
+.boxc {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    margin: 15px;
+
+}
+
+.carte {
+    width: 400px;
+    display: flex;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 20px;
+    padding: 25px;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px black;
+}
+
+.titre_carte {
+    display:flex;
+    border: thick double #454341 ;
+}
+
+.carte h2 {
+    margin: 10px;
+    font-size: 30px;
+    font-family: "eurostile", sans-serif;
+}
+
+.carte p {
+    margin: 10px;
+}
+.carte img {
+    width: 20%;
+    margin-top: 30px;
+}
+.flex_dd {
+    display:flex;
+    margin: 30px;
+    border-top:solid 3px black;
+    border-bottom: solid 3px black;
+}
+
+.carte h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 9px;
+}
+
+
+.projets {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.projets h1 {
+    margin:5px;
+    font-size: 60px;
+}
+
+.boxp h4 {
+    margin: 5px;
+    font-size: 50px;
+}
+
+.btn-logo-haut {
+    margin: 10px;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    align-self: flex-end;
+}
+
+.btn-carte{
+    display: flex;
+    align-items: flex-end;
+}
+.btn-logo{
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    align-self: flex-end;
+}
+
+.veilletech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.veilletech h1 {
+    margin:5px;
+    font-size: 60px;
+}
+
+.boxv {
+    width: 100%;
+    display:flex;
+    margin: 15px;
+    flex-direction: column;
+}
+.carte-long {
+    width: 60%;
+    display: flex;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 20px;
+    padding: 25px;
+    align-items: flex-start;
+    flex-direction: column;
+    border: solid 2px black;
+}
+.carte-long h2 {
+    display:flex;
+    margin:5px;
+    font-size: 35px;
+}
+.carte-long2 {
+    margin-top: 70px;
+    width: 60%;
+    display: flex;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 20px;
+    padding: 25px;
+    align-items: flex-start;
+    align-self: flex-end;
+    flex-direction: column;
+    border: solid 2px black;
+}
+.carte-long2 h2 {
+    display:flex;
+    margin:5px;
+    font-size: 35px;
+}
+
+.dessus_dessous_carte {
+    display:flex;
+    width: 90%;
+    margin: 70px;
+    border-top:solid 3px black;
+    border-bottom: solid 3px black;
+    align-content: stretch;
+}
+.titre_carte_long {
+    display:flex;
+    border: thick double #454341 ;
+    align-items: flex-start;
+    width: 35%;
+}
+.dessus_dessous img {
+    width: 20%;
+    height: 20%;
+}
+.titre_carte_long img {
+    margin-left: 25%;
+    width: 25%;
+    height: 25%;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h1 {
+    margin: 15px;
+    font-size: 40px;
+}
+.boxmc {
+    width: 100%;
+    display:flex;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-logo-bas {
+    margin: 10px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    align-self: flex-start;
+}
+.btn-logo-bas a img {
+    width: 30px;
+    height: 30px;
+}
+.carte-long-contact p {
+    font-weight: bold;
+}
+.carte-long-contact {
+    width: 40%;
+    display: flex;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 20px;
+    padding: 25px;
+    align-items: flex-start;
+    flex-direction: column;
+    border: solid 2px black;
+}
+.leslogos {
+    display: flex;
+    flex-direction: row;
+}
+
+.carte-spe {
+    width: 400px;
+    display: flex;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 20px;
+    padding: 25px;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px black;
+}
+
+.carte-spe h2 {
+    margin: 10px;
+    font-size: 30px;
+    font-family: "eurostile", sans-serif;
+}
+.carte-spe .flex_dd h4 {
+    margin: 5px;
+}
+.carte-spe img {
+    width: 20%;
+    margin : 20px;
+}
