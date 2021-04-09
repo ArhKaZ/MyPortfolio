@@ -251,6 +251,7 @@ body {
     align-items: flex-start;
     flex-direction: column;
     border: solid 2px black;
+    margin: 45px;
 }
 .carte-long h2 {
     display:flex;
@@ -258,7 +259,7 @@ body {
     font-size: 35px;
 }
 .carte-long2 {
-    margin-top: 70px;
+    margin: 45px;
     width: 60%;
     display: flex;
     font-size: 25px;
@@ -368,14 +369,31 @@ body {
 .carte-spe img {
     width: 20%;
     margin : 20px;
-}
 
+}
+.carte-long3 {
+    width: 50%;
+    display: flex;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 20px;
+    padding: 25px;
+    align-items: flex-start;
+    flex-direction: column;
+    border: solid 2px black;
+    margin: 45px;
+}
+.carte-long3 .titre_carte h2 {
+    margin: 5px;
+}
+.spotify iframe {
+    display: flex;
+    margin-right: 50px;
+}
 .spotify {
     display: flex;
-    margin: 70px;
-    justify-content: center;
+    margin : 50px;
+    flex-direction: row;
 }
 
-.spotify iframe {
-    align-self: center;
-}
+
