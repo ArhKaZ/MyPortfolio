@@ -369,3 +369,13 @@ body {
     width: 20%;
     margin : 20px;
 }
+
+.spotify {
+    display: flex;
+    margin: 70px;
+    justify-content: center;
+}
+
+.spotify iframe {
+    align-self: center;
+}
