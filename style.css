@@ -395,5 +395,8 @@ body {
     margin : 50px;
     flex-direction: row;
 }
-
+.btn-aligner {
+    display:flex;
+    flex-direction: row;
+}
 
